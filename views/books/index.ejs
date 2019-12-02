@@ -16,6 +16,7 @@
    </form>
    <div>
    <% books.forEach(book =>{ %>
+   <div><%= book.author%></div>
  <img height="150px" width="100px" src="<%= book.coverImagePath%>">
     <% });%>
    </div>
